@@ -1,0 +1,27 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: #31343d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    background-color: #92ccce;
+    color: #31343d;
+    padding: 5px 10px;
+}
+
+nav {
+    color: #92ccce;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
