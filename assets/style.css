@@ -33,6 +33,7 @@ nav li {
 /* main styling begins here */
 
 img {
+    object-fit: cover;
     height: 250px;
     width: 100%;
 }
@@ -47,32 +48,49 @@ h2 {
 
 /* Styling for About Me Section */
 
-.about-me {
+#about-me {
     display: flex;
-    flex-flow: column wrap;
-    background-color: bisque;
 }
 
-.about-me p {
-    font-size: 15px;
-    width: 1000px;
-}
-
-h3 {
+#about-me h3 {
     color: #445877;
-    font-size: 40px;
+    font-size: 50px;
     text-align: right;
     border-right: 1px solid black;
-    padding: 5px;
-    width: 175px;
-    height: 150px;
+    margin-left: 100px;
+    padding-right: 10px;
+    height: 110px;
+}
+
+#about-me p {
+    font-size: 15px;
+    padding-left: 35px;
+    line-height: 25px;
 }
 
 /* Work Styling */
 
-#work {
+.projects {
     display: flex;
+    background-color: aquamarine;
 }
+
+#work h3 {
+    color: #445877;
+    font-size: 50px;
+    text-align: right;
+    border-right: 1px solid black;
+    margin-left: 100px;
+    padding-right: 10px;
+    height: 350px;
+}
+
+
+
+
+
+
+/* Footer Styling */
 
 footer {
     display: flex;
