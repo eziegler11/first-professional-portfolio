@@ -1,145 +1,125 @@
-/* Universal Styles */
+/* Universal Styling */
 
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
-/* Header and Nav Bar Styles */
+/* Header Styling - Title & Navigation */
 
 header {
+    align-items: center;
     background-color: #31343d;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 h1 {
     background-color: #92ccce;
     color: #31343d;
-    padding: 5px 10px;
-}
-
-nav {
-    
+    padding: 0.625rem;
 }
 
 nav li {
-    list-style: none;
     display: inline-block;
-    padding: 0 10px;
-    color: #92ccce;
+    list-style: none;
 }
 
 nav li a {
     color: #92ccce;
+    text-decoration: underline;
+    padding: 0 0.625rem;
 }
 
-/* main styling begins here */
+/* Main Styling - Hero Image & Heading */
 
-img {
+.hero {
+    align-items: flex-end;
+    background-image: url("../assets/images/colorado_mountains.jpg");
+    display: flex;
+    height: 31.25rem;
+    justify-content: flex-end;
+    margin-bottom: 1.563rem;
     object-fit: cover;
-    height: 250px;
-    width: 100%;
 }
 
 h2 {
-    color:#31343d;
     background-color: #92ccce;
-    position: absolute;
-    left: 1015px;
-    top: 240px;
+    color: #31343d;
+    margin: 1.563rem;
+    padding: 0.313rem;
 }
 
-/* Styling for About Me Section */
+/* About Me Section */
 
 #about-me {
-    display: flex;
-}
-
-#about-me h3 {
-    color: #445877;
-    font-size: 50px;
-    text-align: right;
-    border-right: 1px solid black;
-    margin-left: 100px;
-    padding-right: 10px;
-    height: 110px;
-}
-
-#about-me p {
-    font-size: 15px;
-    padding-left: 35px;
-    line-height: 25px;
-}
-
-/* Work Styling */
-
-.projects {
-    display: flex;
-    flex-flow: wrap;
-    background-color: aquamarine;
-}
-
-#work h3 {
-    color: #445877;
-    font-size: 50px;
-    text-align: right;
-    border-right: 1px solid black;
-    margin-left: 121px;
-    margin-right: 50px;
-    padding-right: 10px;
-    height: 350px;
-}
-
-article a img {
-    border: 2px solid #92ccce;
-}
-
-.project-headings {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    bottom: 50px;
-    color: black;
-    background-color: #92ccce;
-    width: 115px;
-    padding-left: 5px;
-    border: 2px solid #02ccce;
-}
-
-article h4 {
-    font-size: 15px;
-}
-
-article p {
-    font-size: 10px;
-}
-
-/* Footer Styling */
-
-footer {
     display: flex;
     align-items: center;
 }
 
-footer h3 {
+h3 {
     color: #445877;
-    font-size: 50px;
+    font-size: 3.125rem;
+    margin-left: 6.25rem;
+    padding-right: 0.625rem;
     text-align: right;
-    border-right: 1px solid black;
-    padding-right: 10px;
-    height: 150px;
-    width: 267px;
 }
 
-footer ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 45px;
-    font-size: 15px;
+#about-me img {
+    border-left: .06rem solid #445877;
+    height: 12.5rem;
+    padding: 0 3.125rem;
 }
 
-footer ul li a {
-    color: black;
+#about-me p {
+    font-size: 1rem;
+    line-height: 25px;
 }
+
+/* Work Section  
+Thinking maybe I went too deep with the Div. Maybe get rid of article and just have a div? Similar to H2 above */
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+}
+
+.project-one div {
+    background-image: url(./images/colorado_peaks.jpg);
+    height: 12.5rem;
+    object-fit: cover;
+    width: 59.375rem;
+}
+
+.bottom-four-projects div {
+    height: 6.25rem;
+    object-fit: cover;
+    width: 26.563rem;
+}
+
+.project-two div {
+    background-image: url(./images/colorado_hiking_trail.jpg);
+}
+
+.project-three div {
+    background-image: url(./images/colorado_lake.jpg);
+}
+
+.project-four div {
+    background-image: url(./images/colorado_mountains_rain.jpg);
+}
+
+.project-five div {
+    background-image: url(./images/colorado_stream.jpg);
+}
+
+
+
+/* h4 {
+    background-color: #92ccce;
+}
+
+#work p {
+    background-color: #92ccce;
+} */
