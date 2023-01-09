@@ -82,8 +82,6 @@ h3 {
 .page-section {
     display: flex;
     margin-top: 25px;
-    /* flex-wrap: wrap; */
-    /* justify-content:right; */
 }
 
 .page-section a {
@@ -91,12 +89,13 @@ h3 {
     color: #31343d;
 }
 
-.page-section h4 {
+.heading-styles {
     background-color: #92ccce;
+    padding: 8px;
 }
 
-.page-section span {
-    background-color: #92ccce;
+span {
+    font-size: 12px;
 }
 
 .title {
@@ -115,7 +114,7 @@ h3 {
     background-image: url(./images/plants.jpg);
     height: 12.5rem;
     object-fit: cover;
-    width: 930px;
+    width: 58.125rem;
     border: solid #92ccce;
     display: flex;
     flex-direction: column;
@@ -140,13 +139,11 @@ h3 {
 }
 
 .bottom-four-projects div {
-    height: 75px;
-    object-fit: cover;
-    width: 460px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+
     -webkit-filter: grayscale(0) blur(0);
 	filter: grayscale(0) blur(0);
 	-webkit-transition: .3s ease-in-out;
@@ -162,24 +159,36 @@ h3 {
     background-image: url(./images/lumber.jpg);
     border: solid #92ccce;
     margin: 5px;
+    height: 75px;
+    object-fit: cover;
+    width: 460px;
 }
 
 .project-three {
     background-image: url(./images/sand.jpg);
     border: solid #92ccce;
     margin: 5px;
+    height: 75px;
+    object-fit: cover;
+    width: 460px;
 }
 
 .project-four {
     background-image: url(./images/wood.jpg);
     border: solid #92ccce;
     margin: 5px;
+    height: 75px;
+    object-fit: cover;
+    width: 460px;
 }
 
 .project-five {
     background-image: url(./images/sandstone.jpg);
     border: solid #92ccce;
     margin: 5px;
+    height: 75px;
+    object-fit: cover;
+    width: 460px;
 }
 
 /* Contact Me / Footer - Styling */
@@ -208,4 +217,34 @@ footer ul li a {
     text-decoration: none;
     border-bottom: 2px solid black;
     padding-bottom: 5px;
+}
+
+/* Responsive Design  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.hero{
+    width: auto;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
