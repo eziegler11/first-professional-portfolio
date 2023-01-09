@@ -112,7 +112,7 @@ h3 {
 }
 
 .project-one {
-    background-image: url(./images/colorado_peaks.jpg);
+    background-image: url(./images/plants.jpg);
     height: 12.5rem;
     object-fit: cover;
     width: 930px;
@@ -141,25 +141,50 @@ h3 {
 }
 
 .project-two {
-    background-image: url(./images/colorado_hiking_trail.jpg);
+    background-image: url(./images/lumber.jpg);
     border: solid #92ccce;
     margin: 5px;
 }
 
 .project-three {
-    background-image: url(./images/colorado_lake.jpg);
+    background-image: url(./images/sand.jpg);
     border: solid #92ccce;
     margin: 5px;
 }
 
 .project-four {
-    background-image: url(./images/colorado_mountains_rain.jpg);
+    background-image: url(./images/wood.jpg);
     border: solid #92ccce;
     margin: 5px;
 }
 
 .project-five {
-    background-image: url(./images/colorado_stream.jpg);
+    background-image: url(./images/sandstone.jpg);
     border: solid #92ccce;
     margin: 5px;
+}
+
+/* Contact Me / Footer - Styling */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 200px;
+}
+
+footer h3 {
+    border-right: .06rem solid #445877;
+    margin-left: 5px;
+    width: 250px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 35px;
+}
+
+footer ul li a {
+    color: #31343d;
 }
