@@ -74,52 +74,92 @@ h3 {
 #about-me p {
     font-size: 1rem;
     line-height: 25px;
+    padding-right: 20px;
 }
 
-/* Work Section  
-Thinking maybe I went too deep with the Div. Maybe get rid of article and just have a div? Similar to H2 above */
+/* Work Section  */
 
-#work {
+.page-section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content:right;
+    margin-top: 25px;
+    /* flex-wrap: wrap; */
+    /* justify-content:right; */
 }
 
-.project-one div {
+.page-section a {
+    text-decoration: none;
+    color: #31343d;
+}
+
+.page-section h4 {
+    background-color: #92ccce;
+}
+
+.page-section span {
+    background-color: #92ccce;
+}
+
+.title {
+    margin-left: 123px;
+}
+
+.flex-container {
+    border-left: .06rem solid #445877;
+    display: flex;
+    flex-basis: auto;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.project-one {
     background-image: url(./images/colorado_peaks.jpg);
     height: 12.5rem;
     object-fit: cover;
-    width: 59.375rem;
+    width: 930px;
+    border: solid #92ccce;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.bottom-four-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .bottom-four-projects div {
-    height: 6.25rem;
+    height: 75px;
     object-fit: cover;
-    width: 26.563rem;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
-.project-two div {
+.project-two {
     background-image: url(./images/colorado_hiking_trail.jpg);
+    border: solid #92ccce;
+    margin: 5px;
 }
 
-.project-three div {
+.project-three {
     background-image: url(./images/colorado_lake.jpg);
+    border: solid #92ccce;
+    margin: 5px;
 }
 
-.project-four div {
+.project-four {
     background-image: url(./images/colorado_mountains_rain.jpg);
+    border: solid #92ccce;
+    margin: 5px;
 }
 
-.project-five div {
+.project-five {
     background-image: url(./images/colorado_stream.jpg);
+    border: solid #92ccce;
+    margin: 5px;
 }
-
-
-
-/* h4 {
-    background-color: #92ccce;
-}
-
-#work p {
-    background-color: #92ccce;
-} */
